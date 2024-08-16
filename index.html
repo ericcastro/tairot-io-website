@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tairot.io</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #261F38; /* Dark purple background */
+            overflow: hidden;
+        }
+
+        .logo-container {
+            position: relative;
+            width: 50%;
+            height: auto;
+        }
+
+        .logo-container img {
+            display: block;
+            width: 100%;
+            height: auto;
+            -webkit-mask-image: radial-gradient(circle, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 0) 70%);
+            mask-image: radial-gradient(circle, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 0) 70%);
+        }
+    </style>
+</head>
+<body>
+    <div class="logo-container">
+        <img src="logo.png" alt="Logo">
+    </div>
+</body>
+</html>
